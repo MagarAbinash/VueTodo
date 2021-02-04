@@ -17,3 +17,7 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Some of my changes
+Everything is available from the beginning. The only changes are I changed the App.vue sorce to my own made App.Vue in Todo App that consists of the folders like assets and components. I did this so that I can create different project in the same vue pacakge using different folder.
