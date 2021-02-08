@@ -12,6 +12,7 @@
           <button @click="removeTodo(index)">Remove todo</button>
       </li>
   </ul>
+  <h1>{{ newtodo }}</h1>
 </template>
 
 <script>
@@ -64,5 +65,8 @@ export default {
 }
 .todo{
     cursor: pointer;
+}
+ul{
+    width: 500px;
 }
 </style>
