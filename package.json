@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "concurrently \"npx json-server --watch src/routerapp/assets/db.json\" \"npm run serve\""
   },
   "dependencies": {
+    "concurrently": "^5.3.0",
     "core-js": "^3.6.5",
     "json-server": "^0.16.3",
     "vue": "^3.0.0",
