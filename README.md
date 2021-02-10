@@ -24,3 +24,5 @@ Everything is available from the beginning. The only changes are I changed the A
 
 npx json-server --watch src/routerapp/assets/db.json
 npm run serve
+
+use npm run start to run both json-server and vue
