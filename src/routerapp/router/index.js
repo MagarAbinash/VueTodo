@@ -1,10 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from '../routerapp/components/Home.vue'
-import About from '../routerapp/components/About.vue'
-import Jobs from '../routerapp/components/jobs/Jobs.vue'
-import JobDetails from '../routerapp/components/jobs/JobDetails.vue'
-import NotFound from '../routerapp/components/jobs/NotFound.vue'
-
+import Home from '../components/Home.vue'
+import About from '../components/About.vue'
+import Jobs from '../components/jobs/Jobs.vue'
+import JobDetails from '../components/jobs/JobDetails.vue'
+import NotFound from '../components/jobs/NotFound.vue'
 
 const routes = [
     {

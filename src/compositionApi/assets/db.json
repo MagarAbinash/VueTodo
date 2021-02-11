@@ -1,0 +1,6 @@
+{
+    "posts": [
+        {"title": "Welcome to the props", "body": "this is lesson about props", "id": 1, "tags": ["webdev", "coding", "news"]},
+        {"title": "5 js function need to know", "body": "this is about the js", "id": 2, "tags": ["css", "webdev", "loafing"]}
+    ]
+}
